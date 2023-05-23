@@ -19,15 +19,25 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpeg',
   paragraphOne:
-    'I am a second-year diploma student studying at Thakur Polytechnic, Mumbai. My passion is to code difficult problems into a beautifully simple solutions.',
+    'I am a highly skilled individual with a strong background in competitive programming and problem-solving. I have proven my expertise as a Specialist on Codeforces. I have successfully solved over 500 DSA (Data Structures and Algorithms) problems on renowned platforms such as Leetcode and GeeksForGeeks, with a particular focus on medium difficulty level problems.',
   paragraphTwo:
-    "I'm coding since 2 years. I like to create Android  and  Web Apps. I'm also working hard in competitive programming",
-  paragraphThree: 'I like to learn new things in development field',
+    'My proficiency extends beyond competitive programming into full-stack web development. I have showcased my talent through the creation of impressive projects, which are highlighted below:',
+  paragraphThree: '',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'Jobify.png',
+    title: 'Jobify',
+    info: 'Job Tracking App(MERN)',
+    info2:
+      'Users can submit jobs on Jobify, a system for managing employment opportunities. In order to improve user experience, it also contains a stats panel where charts and graphs are used to display stats information. The user can examine every job listed and filter jobs based on position, publication date, kind, etc. A complete job portal that allows administrators and users to post and receive jobs',
+    url: 'https://jobify-euwf.onrender.com/',
+    repo: 'https://github.com/yashhabib01/Jobify', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'Momento.jpg',
